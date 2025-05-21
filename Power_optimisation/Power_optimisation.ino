@@ -4,13 +4,13 @@
 #include <ArduinoJson.h>
 
 // Wi-Fi Credentials
-const char* ssid = "microlab_IoT";
-const char* password = "shibboleet";
+const char* ssid = "[Insert Wifi-Name]";
+const char* password = "[Insert Wifi-Password]";
 
 // MQTT Broker Settings
-const char* mqtt_server = "129.12.41.123";
-const char* mqtt_user = "gardener";
-const char* mqtt_password = "bafflingcandy101";
+const char* mqtt_server = "[MQTT IP Address]";
+const char* mqtt_user = "[MQTT Username]";
+const char* mqtt_password = "[MQTT Password]";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
